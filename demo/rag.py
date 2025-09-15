@@ -70,3 +70,4 @@ chat_engine = CondensePlusContextChatEngine.from_defaults(
     chat_history=DEFAULT_MESSAGES,
     llm=llm,
 )
+__all__ = ["chat_engine", "query_engine", "vector_client"]
